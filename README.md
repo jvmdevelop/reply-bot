@@ -35,8 +35,7 @@
 3. Скомпилируйте и запустите проект:
 
     ```bash
-    ./gradlew build
-    ./gradlew run
+    mvn clean package
     ```
 
 ## ⚙️ Конфигурация
