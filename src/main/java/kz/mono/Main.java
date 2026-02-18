@@ -12,7 +12,6 @@ public class Main {
         List<Long> moderatorIds = JsonUtils.readModeratorIdsFromJson("src/main/resources/moderators.json");
 
         SupportBot supportBot = new SupportBot(token, moderatorIds);
-
-        System.out.println("VPN Support Bot is running...");
     }
 }
+
